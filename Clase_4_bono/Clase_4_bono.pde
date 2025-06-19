@@ -24,7 +24,7 @@ void setup() {
 
   for (int i= 0; i < xPositions.length; i++) {
     xPositions[i]= random(width);
-    yPositions[i]= random(width);
+    yPositions[i]= random(height);
     xSpeed[i]= random(5);
     ySpeed[i]= random(5);
     xDirection[i]=(random (1)> 0.5)? 1:-1;
